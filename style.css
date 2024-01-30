@@ -1,0 +1,70 @@
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(213, 156, 12); /* Adjust the color to match the screenshot */
+}
+
+.header h1 {
+    text-align: center;
+    padding: 20px;
+    color: white; /* Adjust the color to match the screenshot */
+}
+
+.menu-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-category {
+    background-color: #fff; /* Adjust the color to match the screenshot */
+    margin: 10px;
+    padding: 20px;
+    flex-basis: calc(33.333% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.menu-category h2 {
+    color: #333; /* Adjust the color to match the screenshot */
+    /* margin-bottom: 10px; */
+}
+
+.menu-category ul {
+    list-style-type: none;
+}
+
+.menu-category li {
+    color: #555; /* Adjust the color to match the screenshot */
+    line-height: 1.6;
+    padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .menu-section {
+        flex-direction: column;
+    }
+
+    .menu-category {
+        flex-basis: auto;
+    }
+}
+
+.snacks-desserts {
+    width: 400px;
+}
+
+.main {
+    width: 500px;
+}
